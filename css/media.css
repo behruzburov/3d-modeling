@@ -1,0 +1,180 @@
+/* CSS для ширины от 768px до 991px */
+@media (max-width: 991px) {
+  /* hero */
+  .hero {
+    padding: 130px 0 135px 0;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+
+  /* advantages */
+  .advantages {
+    padding-bottom: 76px;
+  }
+
+  .advantages__item-descr {
+    padding: 0;
+  }
+
+  /* mentors */
+  .mentors {
+    padding-bottom: 26px;
+  }
+
+  /* articles */
+  .articles__text {
+    min-height: 376px;
+  }
+
+  .course__btn {
+    padding: 20px 56px;
+  }
+}
+
+/* CSS для ширины от 576px до 767px */
+@media (max-width: 767px) {
+  /* header */
+  .header__logo {
+    margin-bottom: 30px;
+  }
+
+  .header__nav {
+    overflow-x: scroll;
+  }
+
+  /* hero */
+  .hero {
+    padding: 83px 0 135px 0;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  /* advantages */
+  .advantages {
+    padding-bottom: 55px;
+  }
+
+  .advantages__item-descr {
+    padding: 0;
+  }
+
+  .advantages__content {
+    margin-bottom: 25px;
+  }
+
+  .advantages__item::before {
+    margin-bottom: 10px;
+  }
+
+  /* mentors */
+  .mentors {
+    padding-bottom: 50px;
+  }
+
+   /* course */
+  .course__articles-text {
+    min-height: 473px;
+  }
+
+  .course__caption {
+    margin-bottom: 7px;
+    line-height: 136%;
+  }
+
+  .course__btn {
+    padding: 20px 48px;
+  }
+}
+
+/* CSS для ширины до 575px (включительно) */
+@media (max-width: 575px) {
+  /* header */
+  .header {
+    padding: 25px 0;
+  }
+
+  .header__logo {
+    margin-bottom: 23px;
+  }
+
+  /* hero */
+  .hero {
+    padding: 50px 0;
+  }
+
+  .hero__title {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+
+  .hero__descr {
+    margin-bottom: 23px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    padding: 20px 53px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  /* advantages */
+  .advantages {
+    padding: 50px 0;
+  }
+
+  .advantages__caption {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .advantages__img {
+    display: none;
+  }
+
+  .advantages__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .advantages__item::before {
+    margin: 0;
+  }
+
+  .advantages__item-descr {
+    padding: 0;
+    padding-left: 30px;
+  }
+
+  /* mentors */
+  .mentors {
+    padding-top: 47px;
+    padding-bottom: 25px;
+  }
+
+  .mentors__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+
+  /* course */
+  .course {
+    padding-top: 47px;
+    padding-bottom: 50px;
+  }
+
+  .course__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+
+  .course__btn {
+    padding: 20px 56px;
+  }
+}
